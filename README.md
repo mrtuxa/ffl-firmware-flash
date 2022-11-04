@@ -43,7 +43,7 @@ Am einfachsten ist das Flashen von diesem Ger&auml;t mit den bereitgestellten To
 
 6. Verbinde den PC mit dem Router und schalte ihn ein
 
-7. Warte bis ein Link auf dem Netzwerkinterface erkannt wird.
+7. Warte bis ein Link auf dem Netzwerkinterface erkannt wird
 
 8. Starte U-Boot auf dem Router (Dieser Schritt kann mehrere Versuche beanspruchen sollte dieser Schritt nicht beim ersten mal funktionieren, bitte das Ger&auml;t neustarten und den Command erneut ausf&uuml;hren)
 
