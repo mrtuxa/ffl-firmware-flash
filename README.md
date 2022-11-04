@@ -77,7 +77,7 @@ Am einfachsten ist das Flashen von diesem Ger&auml;t mit den bereitgestellten To
 
 15. Installiere die Firmware mit folgendem Command in der SSH-Sitzung
 
-​      `sysupgrade -n /tmp/`openwrt-ipq40xx-generic-avm_fritzrepeater-1200-squashfs-sysupgrade.bin
+​      `sysupgrade -n /tmp/openwrt-ipq40xx-generic-avm_fritzrepeater-1200-squashfs-sysupgrade.bin`
 
 
 
