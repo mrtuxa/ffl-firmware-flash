@@ -33,7 +33,7 @@ Am einfachsten ist das Flashen von diesem Ger&auml;t mit den bereitgestellten To
 
 4. Kopiere die FRITZ1200.bin in den TFTP-Root Ordner (standartm&auml;ßig `/srv/tftp`)
 
-   `cp FRITZ1200.bin` /srv/tftp
+   `cp FRITZ1200.bin /srv/tftp`
 
 5. Konfiguriere die IP-Adressen `192.168.178.10/24` und `192.168.1.70/24`
 
