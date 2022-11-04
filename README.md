@@ -35,7 +35,7 @@ Am einfachsten ist das Flashen von diesem Ger&auml;t mit den bereitgestellten To
 
    `cp FRITZ1200.bin` /srv/tftp
 
-5. Konfiguriere die IP-Adressen `192.168.178.10/24` und 192.168.1.70/24
+5. Konfiguriere die IP-Adressen `192.168.178.10/24` und `192.168.1.70/24`
 
    (`enp2s0` durch den Namen des entsprechenden Netzwerkinterfaces ersetzen)
 
@@ -47,7 +47,7 @@ Am einfachsten ist das Flashen von diesem Ger&auml;t mit den bereitgestellten To
 
 8. Starte U-Boot auf dem Router (Dieser Schritt kann mehrere Versuche beanspruchen sollte dieser Schritt nicht beim ersten mal funktionieren, bitte das Ger&auml;t neustarten und den Command erneut ausf&uuml;hren)
 
-   `./eva_ramboot.py --offset 0x85000000 192.168.178.1 uboot-fritz1200.bin`
+   `./eva_ramboot.py --offset 0x85000000 192.168.178.1 /path/to/directory/uboot-fritz1200.bin`
 
 9. Nach einigen Minuten sollter der Router per SSH auf 192.168.178.1 erreichbar sein
 
@@ -77,7 +77,7 @@ Am einfachsten ist das Flashen von diesem Ger&auml;t mit den bereitgestellten To
 
 15. Installiere die Firmware mit folgendem Command in der SSH-Sitzung
 
-​      `sysupgrade -n /tmp/`openwrt-ipq40xx-generic-avm_fritzrepeater-1200-squashfs-sysupgrade.bin
+​      `sysupgrade -n /tmp/openwrt-ipq40xx-generic-avm_fritzrepeater-1200-squashfs-sysupgrade.bin`
 
 
 
