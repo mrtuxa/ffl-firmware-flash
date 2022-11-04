@@ -35,7 +35,7 @@ Am einfachsten ist das Flashen von diesem Ger&auml;t mit den bereitgestellten To
 
    `cp FRITZ1200.bin` /srv/tftp
 
-5. Konfiguriere die IP-Adressen `192.168.178.10/24` und 192.168.1.70/24
+5. Konfiguriere die IP-Adressen `192.168.178.10/24` und `192.168.1.70/24`
 
    (`enp2s0` durch den Namen des entsprechenden Netzwerkinterfaces ersetzen)
 
