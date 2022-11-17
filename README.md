@@ -80,4 +80,4 @@ Am einfachsten ist das Flashen von diesem Ger&auml;t mit den bereitgestellten To
 ​      `sysupgrade -n /tmp/openwrt-ipq40xx-generic-avm_fritzrepeater-1200-squashfs-sysupgrade.bin`
 
 
-[Quelle: Freifunk Stuttgart Wiki](https://wiki.freifunk-stuttgart.net/anleitungen:fritz_repeater_1200
+[https://wiki.freifunk-stuttgart.net/anleitungen:fritz_repeater_1200](Quelle: Freifunk Stuttgart Wiki)
